@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -34,3 +33,16 @@ namespace ConsoleApp1
         {
             Console.WriteLine($"Название цеха: {Name}, Начальник цеха: {Head}, Количество работающих: {Number}");
         }
+
+        class program
+        {
+            static void Main(string[] args)
+            {
+                WorkShop myWorkShop = new WorkShop();
+                myWorkShop.Fill();
+                myWorkShop.Print();
+                Console.ReadKey();
+            }
+        }
+    }
+}
