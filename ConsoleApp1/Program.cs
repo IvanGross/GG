@@ -21,6 +21,13 @@ namespace ConsoleApp1
             Number = 50;
         }
 
+        public WorkShop(string _Name, string _Head, int _Number)
+        {
+            Name = _Name;
+            Head = _Head;
+            Number = 50;
+        }
+
         public void Fill()
         {
             Console.WriteLine("Введите данные");
